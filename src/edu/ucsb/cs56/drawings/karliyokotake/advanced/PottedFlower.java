@@ -4,16 +4,17 @@ import java.awt.Shape;
 import java.awt.geom.Rectangle2D;
 
 /**
-   A House
+   A PottedFlower
       
-   @author Phill Conrad 
+   @author Karli Yokotake 
    @version for CS56, W16, UCSB
    
 */
 public class PottedFlower extends Flower implements Shape
 {
     /**
-     * Constructor for objects of class CoffeeCup
+     * Constructor for objects of class PottedFlower
+     *@param x coordinate, y coordinate, width, and height
      */
     public PottedFlower(double x, double y, double width, double height)
     {

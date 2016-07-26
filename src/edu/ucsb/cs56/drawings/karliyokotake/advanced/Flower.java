@@ -7,20 +7,20 @@ import edu.ucsb.cs56.drawings.utilities.ShapeTransforms;
 import edu.ucsb.cs56.drawings.utilities.GeneralPathWrapper;
 
 /**
-   A Coffee Cup (wrapper around a General Path, implements Shape)
+   A Flower (wrapper around a General Path, implements Shape)
 
    This provides an example of how you can start with the coordinates
    of a hard coded object, and end up with an object that can be
    drawn anywhere, with any width or height.   
       
-   @author Phill Conrad 
+   @author Karli
    @version for CS56, W16, UCSB
    
 */
 public class Flower extends GeneralPathWrapper implements Shape
 {   
     /**
-     * Constructor for objects of class CoffeeCup
+     * Constructor for objects of class Flower
      */
     public Flower(double x, double y, double width, double height)
     {
